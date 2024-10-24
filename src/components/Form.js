@@ -86,7 +86,7 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-yellow-300">
+    <div className="min-h-screen  bg-yellow-300">
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 z-50">
@@ -110,7 +110,7 @@ const RegistrationForm = () => {
           className="w-full h-[70vh] object-cover"
         />
 
-        <div className="absolute top-0 right-0 bg-white p-4 shadow-lg w-[40vw]  h-[90vh] overflow-y-auto m-2">
+        <div className="absolute top-0 right-0 bg-white p-4 shadow-lg w-[450px]  h-[90vh] overflow-y-auto m-2">
           <h2 className=" text-center text-xl font-bold mb-1 text-orange-300">
             Register Free & Get Your Matched Partner
           </h2>
@@ -352,6 +352,7 @@ const RegistrationForm = () => {
           </form>
         </div>
       </div>
+      <div className="h-3 w-full bg-green-300"></div>
     </div>
   );
 };
