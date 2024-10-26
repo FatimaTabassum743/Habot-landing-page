@@ -111,7 +111,7 @@ const RegistrationForm = () => {
         />
         {/* <div className="absolute top-0 right-0 bg-white p-4 shadow-lg w-[450px]  h-[90vh] overflow-y-auto m-2">hello</div> */}
 
-        <div className="absolute top-0 right-0 bg-white p-2 shadow-lg w-[600px]  h-[82vh] overflow-y-auto m-2">
+        <div className="absolute top-0 right-0 bg-white p-2 shadow-lg w-[600px] pl-5  h-[82vh] overflow-y-auto m-2">
           <h2 className=" text-center text-xl font-bold mb-1 text-orange-300">
             Register Free & Get Your Matched Partner
           </h2>
