@@ -17,23 +17,29 @@ const Header = () => {
             width={250}
           />
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-2">
+          <div className='flex'>
+          <div className='border border-gray-300 p-[3px] rounded text-center w-14 text-gray-600 bg-gray-100'>AM</div>
           <input
             type="text"
-            placeholder="Enter ID/Email/Mobile"
-            className="border border-gray-300 p-1 rounded w-40"
+            placeholder="Enter ID/E-mail/Mobile"
+            className="border border-gray-300 p-[3px] rounded w-45"
           />
+          </div>
+          <div className='mt-4'>
           <input
             type="password"
             placeholder="Enter password"
-            className="border border-gray-300 p-1 rounded w-40"
+            className="border border-gray-300 p-[3px] rounded w-45"
           />
-          <button className="bg-[#2A7E19] text-white px-2 py-1 rounded hover:bg-[#83ad7b]">
+            <div href="#" className="text-sm text-[#2A7E19] italic font-semibold hover:underline">
+            Forgot password?
+          </div>
+          </div>
+          <button className="bg-[#2A7E19] text-white px-2 py-1 rounded hover:bg-[#83ad7b] w-20">
             Login
           </button>
-          <a href="#" className="text-sm text-white hover:underline">
-            Forgot password?
-          </a>
+        
         </div>
       </div>
 

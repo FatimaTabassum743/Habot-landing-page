@@ -109,8 +109,9 @@ const RegistrationForm = () => {
           alt="Marriage"
           className="w-full h-[70vh] object-cover"
         />
+        {/* <div className="absolute top-0 right-0 bg-white p-4 shadow-lg w-[450px]  h-[90vh] overflow-y-auto m-2">hello</div> */}
 
-        <div className="absolute top-0 right-0 bg-white p-4 shadow-lg w-[450px]  h-[90vh] overflow-y-auto m-2">
+        <div className="absolute top-0 right-0 bg-white p-2 shadow-lg w-[600px]  h-[82vh] overflow-y-auto m-2">
           <h2 className=" text-center text-xl font-bold mb-1 text-orange-300">
             Register Free & Get Your Matched Partner
           </h2>
@@ -144,7 +145,7 @@ const RegistrationForm = () => {
             {/* Mobile Number */}
            
             <div className="flex">
-              <label className="mr-2 w-1/2">Enter mobile number</label>
+              <label className="mr-2 w-1/2">Enter mobile number *</label>
               <input
                 type="text"
                 name="mobile"
@@ -158,9 +159,9 @@ const RegistrationForm = () => {
             </div>
             <div className="flex">
               <label className="mr-2 w-1/2"></label>
-              <h2 className=" float-right text-l flex-1 p-1 text-blue-400">
+              <h3 className=" float-right font-bold text-l italic flex-1 p-1 text-blue-400">
             Click <Link to="/" className="text-red-300">Here</Link> To Verify Mobile 
-          </h2>
+          </h3>
             </div>
           
          
@@ -326,7 +327,7 @@ const RegistrationForm = () => {
               
             </div>
             <div className="flex mb-1">
-              <label className="w-1/2 mr-2">Enter Captcha</label>
+              <label className="w-1/2 mr-2">Enter Captcha *</label>
               <input
                 type="text"
                 name="captcha"
@@ -338,12 +339,12 @@ const RegistrationForm = () => {
               {errors.captcha && <span className="text-red-600 text-sm">{errors.captcha}</span>}
             </div>
             <div className="flex mb-1 justify-between">
-              <label className=" mr-2 text-red-300 font-semibold">Verify Mobile is Mandatory Registration</label>
+              <label className=" mr-2 text-red-500 font-bold">*Verify Mobile is Mandatory Registration</label>
               <button
                 type="submit"
                
               
-                className="flex-1 p-1 border bg-red-400 text-white"
+                className="p-2 rounded-sm w-24 border bg-red-400 text-white"
               >Register</button>
            
             </div>
@@ -352,7 +353,7 @@ const RegistrationForm = () => {
           </form>
         </div>
       </div>
-      <div className="h-3 w-full bg-green-300"></div>
+      <div className="h-3 w-full bg-green-500"></div>
     </div>
   );
 };
