@@ -93,7 +93,7 @@ function App() {
         </p>
       </section>
       <CategorySection/>
-      <VideoSection/>
+      <VideoSection />
       <SupplierFinder/>
       <HowItWorks/>
       <Footer/>

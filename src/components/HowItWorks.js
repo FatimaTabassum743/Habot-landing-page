@@ -14,7 +14,7 @@ const HowItWorks = () => {
   return (
     <div className="container mx-auto py-16 text-center">
       <h1 className="text-2xl font-bold mb-4">How it works?</h1>
-      <p className="text-gray-600 text-center w-[839px] m-auto text-xl mb-12">
+      <p className="text-gray-600 text-center w-[50vw] m-auto text-xl mb-12">
         Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with potential buyers, and build successful business relationships, sharing valuable feedback.
       </p>
       

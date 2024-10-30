@@ -17,15 +17,8 @@ const VideoSection = () => {
   };
 
   return (
-    <div className="video-section flex justify-between bg-[#072F57] w-[1316px] h-[400px] m-auto p-16">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        title="YouTube video"
-        className="mx-auto"
-        allowFullScreen
-      ></iframe>
+    <div className="video-section flex justify-around bg-[#072F57] w-[75vw] flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-[400px] m-auto p-16">
+   
       <div>
         <ul className="nav nav-underline">
           <li className="nav-item">
