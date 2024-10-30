@@ -1,28 +1,4 @@
-// import React from 'react';
-// import Navbar from './components/Navbar';
-// import HeroSection from './components/HeroSection';
-// import CategorySection from './components/CategorySection';
-// import VideoSection from './components/VideoSection';
-// import SupplierFinder from './components/SupplierFinder';
-// import HowItWorks from './components/HowItWorks';
-// import Footer from './components/Footer';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Navbar />
-//       <HeroSection />
-//       <CategorySection />
-//       <VideoSection />
-//       <SupplierFinder />
-//       <HowItWorks />
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
-// App.js
 import React from "react";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
